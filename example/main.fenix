@@ -1,0 +1,7 @@
+use(std:io);
+
+funct main() {
+  var word: string = "привет";
+  printf("%s", word);
+  program end;
+}
