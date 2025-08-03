@@ -1,0 +1,37 @@
+#using <stdio.hf>
+#using <vadt.hf>
+
+funct main() {
+  //типы данных
+  intgr num = 5;
+  float number = 5.5f;
+  short number_2 = 5;
+  string word = "no brain";
+  charact sym[2] = {'n', 'b'};
+  booln isVar = true;
+  //Условия
+  if num == 5 {
+    printf("%n", num);
+  } 
+  elif number <= 5.5f {
+    printf("elif - он же else if но как в питоне");
+  }
+  else {
+    printf("else решил не трогать");
+  }
+  
+  //Циклы
+  for intgr i = 0; i <= 10; i++{
+    printf("%n", i);
+  }
+  
+  while number_2 < 5{
+    printf("%n while - прикольно", number_2);
+  }
+
+  do {
+    intgr i;
+    i += 1;
+  } while i < 5;
+  program end;
+}
